@@ -16,8 +16,7 @@ ETIQUETAS
 <p> -> parrafo
 <br> -> salto de linea
 
-<table> -> inicio de tabla
+<table border = "x"> -> inicio de tabla. border para añadir un borde.
     <tr> -> fila .
         <td> -> texto dentro de la fila. uno por cada columna que queramos.
-    
-    <th> -> cabecera
+        <th> -> cabecera
