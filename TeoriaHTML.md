@@ -15,8 +15,10 @@ ETIQUETAS
 <im scr = "x"> -> Insertar imagen. scr para poner la url en x
 <p> -> parrafo
 <br> -> salto de linea
+<center> -> texto centrado
 
 <table border = "x"> -> inicio de tabla. border para añadir un borde.
     <tr> -> fila .
-        <td> -> texto dentro de la fila. uno por cada columna que queramos.
+        <td colspan="x"> -> texto dentro de la fila. uno por cada columna que queramos. Colspan para hacer que la celda ocupe mas celdas a la derecha
+        
         <th> -> cabecera
