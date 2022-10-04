@@ -22,3 +22,6 @@ ETIQUETAS
         <td colspan="x"> -> texto dentro de la fila. uno por cada columna que queramos. Colspan para hacer que la celda ocupe mas celdas a la derecha
         
         <th> -> cabecera
+
+
+<y style:"backgroundcolor: x;"> -> aributo para añadir un color en el fondo para esa etiqueta en cuestion.  x puede ser el nombre de un color o rgb(x, y, z);
