@@ -8,8 +8,9 @@
     background-color: rgb(51, 255, 255);
 }
 .Ingles{
-    background-color: rgb(179, 255, 179);
-}
+    background-color: linear-gradient(71.18deg, rgb(0, 34, 255) -27.32%, rgb(0, 34, 255) -16.39%, rgb(81, 121, 254) -7.38%, rgb(165, 237, 182) 30.59%, rgb(250, 232, 90) 46.06%, rgb(253, 172, 62) 62.61%, rgb(255, 92, 0) 75.82%) text;
+};
+
 .Fisica{
     background-color: green;
 }
@@ -17,7 +18,7 @@
     background-color: chartreuse;
 }
 .Tutoria{
-    background-color: antiquewhite;
+    background-color: pink;
 }
 .Geologia{
     background-color: brown;
@@ -32,7 +33,9 @@ table{
     border: 1px solid black;
     
 }
-
 .cajanormal{
-    background-color: snow;
+    background-color: antiquewhite;
+}
+body{
+    background-color: oldlace;
 }
