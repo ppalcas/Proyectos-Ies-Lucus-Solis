@@ -13,28 +13,38 @@
     padding-right: 25%;
 }
 #cuerpo{
-    display: -ms-flex;
-    display: -webkit-flex;
+
+    
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: stretch;
+    align-items: stretch;
     display: flex;
+    flex-grow: 1;
+    margin-top: 50px;
 }
 
 #columnaIZQUIERDA{
     width: 49%;
     text-align: center;
-    
+       
     
 }
 
 #columnaDERECHA{
     width: 49%;
     text-align: center;
-        
+    margin-left: 0;
 }
 
 .tituloDelTema{
     text-align: center;
     
     
+}
+
+#habilidades{
+    margin-top: 50px;
 }
 
 .Titulaciones{
@@ -48,10 +58,22 @@
     padding-left: 25%;
 }
 
-#TextoTema{
-    padding-left: 50px;
+#subtitulo{
+    margin: 0;
 }
 
-p{
-    margin: 0;
+.TextoTema{
+    margin-left: 140px;
+}
+
+.textoHabilidades{
+    text-align: left;
+    font-size: large;
+    color: rgb(0, 102, 204);
+    font-weight: bold; 
+}
+
+.hrHabilidades{
+    width: 10px;
+           
 }
