@@ -8,6 +8,9 @@ ETIQUETAS
     <head> -> encabezado
     <body> -> cuerpo
 
+
+para poner un css el lugar correcto es mediante un enlace en la cabecera
+
 <link rel="stylesheet" href="x"> -> link para archivo css
 
 
@@ -31,9 +34,13 @@ ETIQUETAS
 
 <y style:"backgroundcolor: x;"> -> aributo para añadir un color en el fondo para esa etiqueta en cuestion. style para darle un atributo de css dentro del archivo html. x puede ser el nombre de un color o rgb(x, y, z); NO se debe utilizar
 
-<x id="x"> el id marca a esa etiqueta como unica en todo el archivo.
+<x id="x"> el id marca a esa etiqueta como unica en todo el archivo. Para un elemento que tenga un estilo independiente al resto de los elementos de la pagina
 
-<x class="x"> el class agrupara en una clase a todas las etiquetas que lo lleven (programacion orientada a objetos)
+<x class="x"> el class agrupara en una clase a todas las etiquetas que lo lleven (programacion orientada a objetos) para todos los elementos que queramos que tengan el mismo estilo.
+
+para incluir un enlace se utilica <a href="https://facebook.com">x</a> siendo x cualquier texto o imagen
+
+
 
 FLEXBOX
 
