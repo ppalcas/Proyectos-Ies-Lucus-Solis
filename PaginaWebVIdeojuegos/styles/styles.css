@@ -1,0 +1,21 @@
+body{
+    background-image: url("/PaginaWebVIdeojuegos/imagenes/background.jpg");
+    background-size: 1000px;
+}
+
+#cabecera{
+    
+    position:relative
+    
+}
+#imagenCabecera{
+    width: 1255px;
+    position: absolute;
+}
+#titulo{
+    margin-top: 100px;
+    margin-left: 35%;
+    text-align: center;
+    font-size: 40px;
+    position:absolute
+}
