@@ -8,36 +8,28 @@
     </head>
     <body>
         <h1>mi primer programa de Javascript</h1>
-
-        <label for="nombre">nombre</label>
-        <input id="1n" value="1valor" type="number">
+        
+        <p>primer número</p>
+        <input id="1n" name="1valor" type="number">
+        <br>
+        <p>segundo número</p>
         <input type="number" name="2valor" id="2n">
-        <input type="number" name="resultado" id="mostarResultado">
+        <br>
+        <p>resultado</p>
         <input type="button" value="sumar" onclick="suma()">
-        <input type="button" value="cambiar nombre" onclick="cambiarNombre()">
+        <input type="number" id="mostarResultado">
 
         <script>
 
-            let numero1
-            let numero2
-            let resultado
-
-            function llamarAlerta()
-            {
-                alert("hola soy un mensaje de alerta");
-            }
-
-            function cambiarNombre()
-            {
-                document.getElementById("nombre").value="pepe";
-            }
+            var numero1
+            var numero2
+            var resultado
             function suma()
             {
                 numero1 = document.getElementById("1n").value
                 numero2 = document.getElementById("2n").value
-                resultado = (numero1 + numero2)
-                alert(resultado)
-                document.getElementById("mostrarResultado").value=(resultado)
+                resultado = parseInt(numero1) + parseInt(numero2)
+                document.getElementById("mostrarResultado").value=resultado;
             }
 
         </script>
