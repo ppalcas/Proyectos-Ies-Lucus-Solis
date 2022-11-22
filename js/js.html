@@ -16,22 +16,47 @@
         <input type="number" name="2valor" id="2n">
         <br>
         <p>resultado</p>
-        <input type="button" value="sumar" onclick="suma()">
-        <input type="number" id="mostarResultado">
+        <input type="button" value="sumar" onclick = "suma()">
+        <input type="button" value="restar" onclick="resta()">
+        <input type="button" value="multiplicacion" onclick="multiplicacion()">
+        <input type="button" value="division" onclick="division()">
+
+        <input id="mostrarResultado" value="4">
 
         <script>
-
-            var numero1
-            var numero2
-            var resultado
+            let numero1
+            let numero2
+            
             function suma()
             {
                 numero1 = document.getElementById("1n").value
                 numero2 = document.getElementById("2n").value
-                resultado = parseInt(numero1) + parseInt(numero2)
-                document.getElementById("mostrarResultado").value=resultado;
+                document.getElementById("mostrarResultado").value=(parseInt(numero1) + parseInt(numero2))
             }
 
+            function resta(){
+                numero1 = document.getElementById("1n").value
+                numero2 = document.getElementById("2n").value
+                document.getElementById("mostrarResultado").value=(parseInt(numero1) - parseInt(numero2))    
+            }
+
+            function multiplicacion(){
+                numero1 = document.getElementById("1n").value
+                numero2 = document.getElementById("2n").value
+                document.getElementById("mostrarResultado").value=(parseInt(numero1) * parseInt(numero2))
+            }
+
+            function division(){
+                numero1 = document.getElementById("1n").value
+                numero2 = document.getElementById("2n").value
+                if (numero2 == 0){
+                    alert("No se puede dividir un numero entre 0")
+                    return
+                }
+            
+                document.getElementById("mostrarResultado").value=(parseInt(numero1) / parseInt(numero2))
+            
+            }
         </script>
     </body>
 </html>
