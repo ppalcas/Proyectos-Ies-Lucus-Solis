@@ -9,24 +9,45 @@
     <body>
         <h1>mi primer programa de Javascript</h1>
         
-        <p>primer número</p>
-        <input id="1n" name="1valor" type="number">
-        <br>
-        <p>segundo número</p>
-        <input type="number" name="2valor" id="2n">
-        <br>
-        <p>resultado</p>
+        <input class="n" name="9" type="button" value="9" onclick="añadirNumero()">
+        <input class="n" name="8" type="button" value="8" onclick="añadirNumero()">
+        <input class="n" name="7" type="button" value="7" onclick="añadirNumero()">
         <input type="button" value="sumar" onclick = "suma()">
+        
+        <br>
+        <input class="n" name="6" type="button" value="6" onclick="añadirNumero()">
+        <input class="n" name="5" type="button" value="5" onclick="añadirNumero()">
+        <input class="n" name="4" type="button" value="4" onclick="añadirNumero()">
         <input type="button" value="restar" onclick="resta()">
+        
+        <br>
+        <input class="n" name="3" type="button" value="3" onclick="añadirNumero();indentificaNumero()">
+        <input class="n" name="2" type="button" value="2" onclick="añadirNumero()">
+        <input class="n" name="1" type="button" value="1" onclick="añadirNumero()">        
         <input type="button" value="multiplicacion" onclick="multiplicacion()">
-        <input type="button" value="division" onclick="division()">
+        
+        <br>
+        <input id="0n" name="0" type="button" value="0" onclick="añadirNumero()">
+        <input type="button"; value="division" onclick="division()">
+        
 
         <input id="mostrarResultado" value="4">
 
         <script>
+            let numeroAAñadir
             let numero1
             let numero2
+            let PoS = "primero"
             
+            function indentificaNumero(){
+                
+
+            }
+
+            function añadirNumero(){
+                
+            }
+
             function suma()
             {
                 numero1 = document.getElementById("1n").value
