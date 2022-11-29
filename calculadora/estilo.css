@@ -1,0 +1,17 @@
+button{
+    width: 5em;
+    height: 3em;
+}
+input{
+    height: 2em;
+    width: 20.3em;
+    text-align: right;
+}
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+.invisible{
+    background-color: transparent;
+    border: 0px;
+}

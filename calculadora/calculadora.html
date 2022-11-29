@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>calculadora</h1>
+        
+        
+        <div>
+            <input id="mostrarResultado">
+        </div>
+
+        <div>
+            <button class="invisible"></button>
+            <button class="invisible"></button>
+            <button class="invisible"></button>
+            <button  onclick="AC()">AC</button>
+        </div>
+        
+        <div>
+            <button onclick="escribir(7)">7</button>
+            <button onclick="escribir(8)">8</button>
+            <button onclick="escribir(9)">9</button>
+            <button onclick="suma()">+</button>
+        </div>
+
+        <div>
+            <button onclick="escribir(4)">4</button>
+            <button onclick="escribir(5)">5</button>
+            <button onclick="escribir(6)">6</button>
+            <button onclick="resta()">-</button>    
+        </div>
+        
+        <div>
+            <button onclick="escribir(1)">1</button>
+            <button onclick="escribir(2)">2</button>
+            <button onclick="escribir(3)">3</button>
+            <button onclick="multiplicacion()">x</button>
+        </div>
+        
+        <div>
+            <button onclick="escribir(0)">0</button>
+            <button onclick="resultado()">=</button>
+            <button onclick="decimal()">.</button>
+            <button onclick="division()">/</button>
+        </div>
+        
+
+        <script src="/calculadora/js/script.js"></script>
+    </body>
+</html>
