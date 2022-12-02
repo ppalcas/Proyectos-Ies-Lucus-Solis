@@ -6,9 +6,10 @@ let texto = ""
             
 function escribir(valor){
     
+    
+
     if (numeroAAñadir == "1"){
-        numero1 += valor
-        
+        numero1 += valor    
         document.getElementById("mostrarResultado").value = (numero1)     
     }
     if (numeroAAñadir == "2")
@@ -21,8 +22,6 @@ function escribir(valor){
 
 function suma()
 {   
-    
-    alert(numero1)
     texto += numero1
     texto += " + "
     operacion = "suma"
@@ -70,6 +69,7 @@ function resultado(){
         numero1 = (parseFloat(numero1) + parseFloat(numero2))
         numero2 = 0
         texto = ""
+        operacion = ""
         escribir(valor)
     }
     if (operacion == "resta"){
@@ -77,6 +77,8 @@ function resultado(){
         numero1 = (parseFloat(numero1) - parseFloat(numero2))
         numero2 = 0
         texto = ""
+        operacion = ""
+
         escribir(valor)   
     }
     if (operacion == "multiplicacion"){
@@ -84,6 +86,8 @@ function resultado(){
         numero1 = (parseFloat(numero1) * parseFloat(numero2))
         numero2 = 0
         texto = ""
+        operacion = ""
+
         escribir(valor)
 
     }
@@ -92,6 +96,7 @@ function resultado(){
         numero1 = (parseFloat(numero1) / parseFloat(numero2))
         numero2 = 0
         texto = ""
+        operacion = ""
         escribir(valor)
     }
     
