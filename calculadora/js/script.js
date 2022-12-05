@@ -109,10 +109,3 @@ function AC(){
     document.getElementById("mostrarResultado").value = 0
     escribir(valor) 
 }
-
-function decimal(){
-    if (numeroAAñadir = "1"){
-        numero1 += "."
-        escribir(valor)
-    }
-}
